@@ -34,7 +34,7 @@ jobs:
           grep -q 'data-enter-mode="sandbox"' index.html
           grep -q 'data-enter-mode="iq"' index.html
           grep -q 'data-enter-mode="online"' index.html
-          grep -q 'data-enter-mode="all-nightmare"' index.html
+          grep -q 'data-enter-mode="allnightmare"' index.html
           test -s images/players/pillow-s1-5.webp
           test -s images/players/yoboy-s1-8.webp
           test -s images/players/kanyuri-s1-2.webp
